@@ -15,8 +15,6 @@
  */
 package com.germinus.easyconf;
 
-import org.apache.commons.lang.exception.NestableRuntimeException;
-
 
 /**
  * Some unrecoverable but important error has ocurred while reading the configuration
@@ -25,7 +23,7 @@ import org.apache.commons.lang.exception.NestableRuntimeException;
  * @version $Revision: 1.3 $
  *
  */
-public class ConfigurationException extends NestableRuntimeException {
+public class ConfigurationException extends RuntimeException {
     
     private String componentName;
 

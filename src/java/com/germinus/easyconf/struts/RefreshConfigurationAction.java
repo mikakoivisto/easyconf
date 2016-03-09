@@ -16,7 +16,7 @@
 package com.germinus.easyconf.struts;
 
 import org.apache.struts.action.*;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

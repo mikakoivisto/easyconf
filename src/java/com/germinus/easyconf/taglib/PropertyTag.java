@@ -22,7 +22,7 @@ import com.germinus.easyconf.Filter;
 import javax.servlet.jsp.tagext.BodyTagSupport;
 import javax.servlet.jsp.JspException;
 import org.apache.struts.util.RequestUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;
 import java.util.ArrayList;
